@@ -1,12 +1,20 @@
 import React from "react";
-import './App.css';
+import "./App.css";
+import Sidebar from "../src/components/Sidebar";
+import Banner from "../src/components/Banner";
+import Main from "../src/components/Main";
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Hello world</h1>
-        <h2>Autumn hates life</h2>
+      <div className="container">
+      <div className="row">
+        <Banner/>
+      </div>
+      <div className="row">
+        <Sidebar/>
+        <Main/>
+      </div>
       </div>
     );
   }

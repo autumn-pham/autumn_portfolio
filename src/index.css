@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 25% 75%;
+}
+
+.sidebar {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.autumn-img {
+  width: 150px;
+  height: 200px;
+}
+
+.fab, .fas {
+  color: black;
+}
+
+.social-icons {
+  list-style-type: none;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.banner {
+  background-image: url("https://i.ibb.co/x6hqxvV/autumn-leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+  color: white;
+  text-align: center;
+}
+
+/* @media (max-width: 375) {
+  .autumn-img img {
+    width: 35px;
+    height: 50px;
+  }
+} */
