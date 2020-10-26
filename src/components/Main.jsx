@@ -4,11 +4,12 @@ class Main extends React.Component {
   render() {
     return (
       <div className="main col-9">
-        <h4>About Autumn</h4>
-        <p></p>
-        <h4>Work</h4>
+        <h5>About Autumn</h5><hr/>
+        <p>As a full-stack developer, I bring x, y, and z to my work.</p>
+        <h5>Work</h5><hr/>
 
-        <h4>Experience</h4>
+        <h5>Experience</h5><hr/>
+        <p>View my full resume <a href="#">here</a>.</p>
       </div>
     );
   }

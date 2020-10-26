@@ -6,7 +6,7 @@ class Sidebar extends React.Component {
     return (
       <div className="sidebar col-3">
           <img src={Autumn} alt="autumn photo" className="autumn-img"/>
-          <h2>Autumn Pham</h2>
+          <h3 className="name">Autumn Pham</h3>
           <span className="email"><i class="far fa-envelope"></i> ph.autumn@gmail.com</span>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/autumn-pham" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a><br/>
