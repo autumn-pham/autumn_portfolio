@@ -43,6 +43,22 @@ code {
   text-align: center;
 }
 
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card {
+  width: 49%;
+  margin-bottom: .5em;
+}
+
 @media (max-width: 375px) {
   .autumn-img {
     width: 50px;
@@ -51,5 +67,9 @@ code {
 
   .name, .email {
     display: none;
+  }
+
+  .project {
+    display: block;
   }
 }
