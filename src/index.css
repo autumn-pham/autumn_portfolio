@@ -61,7 +61,7 @@ h1, h3, h4 {
 
 .card {
   width: 49%;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
 }
 
 .link-btn {
@@ -74,7 +74,7 @@ h1, h3, h4 {
     height: 75px;
   }
 
-  .name, .email {
+  .name, .email, .skills {
     display: none;
   }
 
