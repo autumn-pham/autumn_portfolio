@@ -30,7 +30,7 @@ class Project extends React.Component {
         </div>
         <div className="card">
           <div className="card-header">A Novel Idea</div>
-          <img src="" class="card-img-top" alt="..."/>
+          <img src="" className="card-img-top" alt="..."/>
           <div className="card-body">
             <a href="https://pinch-of-salt.herokuapp.com/" className="btn btn-outline-dark" role="button" target="_blank">View Project</a>
           </div>
