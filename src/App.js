@@ -7,7 +7,7 @@ import Main from "../src/components/Main";
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
       <div className="row">
         <Banner/>
       </div>
