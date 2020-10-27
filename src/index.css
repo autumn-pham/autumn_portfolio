@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+a {
+  color: black;
+  font-weight: bold;
+}
+
 .sidebar {
   background-color: whitesmoke;
   text-align: center;
@@ -31,7 +36,7 @@ code {
 }
 
 .main {
-  border: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .banner {
@@ -50,13 +55,13 @@ code {
   flex-wrap: wrap;
 }
 
-.card-header {
-  text-align: center;
-}
-
 .card {
   width: 49%;
   margin-bottom: .5em;
+}
+
+.link-btn {
+  float: right;
 }
 
 @media (max-width: 375px) {
