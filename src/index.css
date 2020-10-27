@@ -72,4 +72,8 @@ code {
   .project {
     display: block;
   }
+
+  .card {
+    width: 100%;
+  }
 }
