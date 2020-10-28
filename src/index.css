@@ -83,7 +83,7 @@ h1, h3, h4 {
   float: right;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 415px) {
   .mobile-display: {
     display: none;
   }
@@ -92,7 +92,7 @@ h1, h3, h4 {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 414px) {
   h3 {
     font-size: 1.5em;
   }
@@ -102,8 +102,8 @@ h1, h3, h4 {
   }
 
   .autumn-img img {
-    width: 30px;
-    height: 50px;
+    width: 25px;
+    height: 40px;
   }
 
  .desktop-display {
@@ -116,7 +116,7 @@ h1, h3, h4 {
     justify-content: space-around;
   }
 
-  .autumn-img {
+  .autumn-mobile-img {
     width: 20%;
   }
   .about-text {
