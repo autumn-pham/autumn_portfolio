@@ -83,7 +83,7 @@ h1, h3, h4 {
   float: right;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 577px) {
   .mobile-display: {
     display: none;
   }
@@ -92,7 +92,7 @@ h1, h3, h4 {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   h3 {
     font-size: 1.5em;
   }
