@@ -52,6 +52,21 @@ h1, h3, h4 {
   text-align: center;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: .5em 0;
+}
+
+.links .fas, .links .fab {
+  color: white;
+}
+
+.links1, .links2, .links3, .links4, .links5 {
+  width: 19%;
+}
+
 .project {
   display: flex;
   flex-direction: row;
@@ -68,7 +83,16 @@ h1, h3, h4 {
   float: right;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 414px) {
+  .mobile-display: {
+    display: none;
+  }
+  .autumn-mobile-img {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
   h3 {
     font-size: 1.5em;
   }
@@ -76,15 +100,28 @@ h1, h3, h4 {
   .banner h1 {
     font-size: .75em;
   }
-  .autumn-img {
-    width: 50px;
-    height: 75px;
+
+  .autumn-img img {
+    width: 30px;
+    height: 50px;
   }
 
  .desktop-display {
     display: none;
   }
 
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .autumn-img {
+    width: 20%;
+  }
+  .about-text {
+    width: 69%;
+  }
   .project {
     display: block;
     overflow-x: scroll;

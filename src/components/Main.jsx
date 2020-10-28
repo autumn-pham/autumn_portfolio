@@ -1,12 +1,16 @@
 import React from "react";
 import Project from "./Project";
+import Autumn from "../assets/autumn_headshot.jpg";
 
 class Main extends React.Component {
   render() {
     return (
-      <div className="main col-9">
+      <div className="main col col-sm-9">
         <hr/><h3 id="about">about autumn</h3><hr/>
-        <p>As a full-stack developer, I bring x, y, and z to my work.</p>
+        <div className="about">
+          <img src={Autumn} alt="autumn photo" className="autumn-mobile-img mobile-display"/>
+          <p className="about-text">As a full-stack software engineer, I bring x, y, and z to my work.</p>
+        </div>
         <hr/><h3 id="projects">projects</h3><hr/>
         <Project/>
         <hr/><h3 id="experience">experience</h3><hr/>

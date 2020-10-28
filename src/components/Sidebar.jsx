@@ -4,8 +4,8 @@ import Autumn from "../assets/autumn_headshot.jpg";
 class Sidebar extends React.Component {
   render() {
     return (
-      <div className="sidebar col-3">
-          <img src={Autumn} alt="autumn photo" className="autumn-img"/>
+      <div className="sidebar col-sm-3 desktop-display">
+          <img src={Autumn} alt="autumn headshot" className="autumn-img"/>
           <h3 className="name">Autumn Pham</h3>
           <span className="email desktop-display"><i className="far fa-envelope"></i> ph.autumn@gmail.com</span><hr/>
           <a href="#about">About</a><br/>
@@ -14,7 +14,7 @@ class Sidebar extends React.Component {
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/autumn-pham" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-2x"></i></a><br/>
             <a href="https://github.com/autumn-pham" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-2x"></i></a><br/>
-            <a href="https://github.com/autumn-pham" target="_blank" rel="noreferrer"><i className="fas fa-file fa-2x"></i></a><br/>
+            <a href="https://github.com/autumn-pham" target="_blank" rel="noreferrer"><i className="fas fa-file-alt fa-2x"></i></a><br/>
           </div><hr/>
           <div className="skills">
             <h6>Skills</h6>
