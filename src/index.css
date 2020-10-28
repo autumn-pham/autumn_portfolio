@@ -79,8 +79,23 @@ h1, h3, h4 {
   margin-bottom: 1em;
 }
 
-.link-btn {
+.date {
   float: right;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: .5em;
+}
+
+.experience-icon {
+  width: 5%;
+}
+
+.experience-text {
+  width: 94%;
 }
 
 @media (min-width: 577px) {
@@ -106,7 +121,7 @@ h1, h3, h4 {
     height: 40px;
   }
 
- .desktop-display {
+ .desktop-display, .experience {
     display: none;
   }
 

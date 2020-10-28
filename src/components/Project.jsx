@@ -9,30 +9,31 @@ class Project extends React.Component {
     return (
       <div className="project">
         <div className="card">
-          <div className="card-header">Fighting Fit<span className="link-btn"><a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark" target="_blank"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header text-center">Fighting Fit</div>
           <img src={FightingFit} className="card-img-top" alt="fighting fit site"/>
-          <div className="card-img-overlay">
+          <div className="card-body">
+            <a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark btn-block" target="_blank"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
         <div className="card">
-          <div className="card-header">Fighting Fit Meetup<span className="link-btn"><a href="https://fightfitmeetup.herokuapp.com" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header text-center">Fighting Fit Meetup</div>
           <img src={FightingFitMeetup} className="card-img-top" alt="fighting fit meetup site"/>
-          <div className="card-img-overlay">
-
+          <div className="card-body">
+            <a href="https://fightfitmeetup.herokuapp.com" className="btn btn-outline-dark btn-block" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
         <div className="card">
-          <div className="card-header">Pinch of Salt<span className="link-btn"><a href="https://pinch-of-salt.herokuapp.com" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header text-center">Pinch of Salt</div>
           <img src={PinchofSalt} className="card-img-top" alt="pinch of salt site"/>
-          <div className="card-img-overlay">
-
+          <div className="card-body">
+            <a href="https://pinch-of-salt.herokuapp.com" className="btn btn-outline-dark btn-block" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
         <div className="card">
-          <div className="card-header">A Novel Idea<span className="link-btn"><a href="https://infinite-stream-72673.herokuapp.com" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header text-center">A Novel Idea</div>
           <img src={NovelIdea} className="card-img-top" alt="..."/>
-          <div className="card-img-overlay">
-
+          <div className="card-body">
+            <a href="https://infinite-stream-72673.herokuapp.com" className="btn btn-outline-dark btn-block" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a>
           </div>
         </div>
       </div>

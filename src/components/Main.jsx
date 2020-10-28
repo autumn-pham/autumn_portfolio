@@ -14,6 +14,10 @@ class Main extends React.Component {
         <hr/><h3 id="projects">projects</h3><hr/>
         <Project/>
         <hr/><h3 id="experience">experience</h3><hr/>
+          <div className="experience">
+            <div className="experience-icon"><i className="fas fa-angle-double-right"></i></div>
+            <div className="experience-text">General Assembly<span className="date">Aug 2020-Nov 2020</span><br/>[description goes here]</div>
+          </div>
 
         <p>View my full resume <a href="#">here</a>.</p>
       </div>
