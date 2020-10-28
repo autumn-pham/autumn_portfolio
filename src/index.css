@@ -44,7 +44,7 @@ h1, h3, h4 {
 }
 
 .banner {
-  background-image: url("https://i.ibb.co/x6hqxvV/autumn-leaves.jpg");
+  background-image: url("https://i.makeagif.com/media/10-06-2016/yjj7CR.gif");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 70%;
@@ -71,6 +71,10 @@ h1, h3, h4 {
 @media (max-width: 375px) {
   h3 {
     font-size: 1.5em;
+  }
+
+  .banner h1 {
+    font-size: .75em;
   }
   .autumn-img {
     width: 50px;

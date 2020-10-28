@@ -9,13 +9,13 @@ class Project extends React.Component {
     return (
       <div className="project">
         <div className="card">
-          <div className="card-header">Fighting Fit<span className="link-btn"><a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header">Fighting Fit<span className="link-btn"><a href="https://fightingfit.herokuapp.com" className="btn btn-outline-dark"  target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
           <img src={FightingFit} className="card-img-top" alt="fighting fit site"/>
           <div className="card-img-overlay">
           </div>
         </div>
         <div className="card">
-          <div className="card-header">Fighting Fit Meetup<span className="link-btn"><a href="#" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
+          <div className="card-header">Fighting Fit Meetup<span className="link-btn"><a href="https://fightfitmeetup.herokuapp.com" className="btn btn-outline-dark" role="button" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></span></div>
           <img src={FightingFitMeetup} className="card-img-top" alt="fighting fit meetup site"/>
           <div className="card-img-overlay">
 
